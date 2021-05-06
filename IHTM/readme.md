@@ -21,7 +21,6 @@
 *k*=6, *L*=10, *total_iter*=hundreds(100,200...) are suggested.
 ---
 ### Warm Note
-- File */good result*. They are current good results. **sparsity_6.mat** is the result of **data_noisefree.mat**, the approximation residual norm is 2.47(15.6% error from target signal $\vec r$ norm). **noisy_sparsity_6.mat** is the result of **data_noisy.mat**, the approximation residual norm is 5.47(33.2% error from target signal $\vec r$ norm). You may directly set y0 in **IHTM.m** to y0 values in the mat file. and run **random_initialization.m** with *total_iter*=1.
 - Trails needed. Results varies with different initial points. You may need to repeat step (2) multiple times to get small residuals. 
   
 - Save time. Step (2) would take a long time. You may read and use **mail2me.m** function(which is annotated in the end of **random_initialization.m**) for a email notice. Also, after loading *C, CC, CTX mat*  once, annotating their load lines in **random_initialization.m** saves time.
