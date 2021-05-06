@@ -1,6 +1,6 @@
 function [x_c_value,x_c_index] = cs_omp(data, rho, alpha)
 %% load data
-load(data)
+load(data);
 r = [real(r); imag(r)];
 n = length(c);
 mul = zeros(2*n,1);
