@@ -27,4 +27,7 @@ In `/IHTM`
 
 Note
 -   
-You could try out sparse signal recovery using your mat-form data consists of variable x (target signal), variable a (the first column of circulant matrix A), and variable y (received signal).
+You could try out sparse signal recovery using your mat-form data that consists of variable x (target signal), variable a (the first column of circulant matrix A), and variable y (received signal).
+
+---
+If any questions, please email me at yueting_li@berkeley.edu :)
